@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #4B4B4B;
+    --amarelo: #FFEE94;
+    --azul: #ACD4F7;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--preto);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+div.container-login {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/images-gerais/fundo-login.png);
+    background-size: cover;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background-color: white;
+}
+
+div.container-icon-nav {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+div.container-icon-nav > img {
+    width: 25px;
+    margin-left: 40px;
+}
+
+div.container-icon-nav > img:hover {
+    cursor: pointer;
+}
+
+div.container-logo {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-logo > a > img {
+    width: 150px;
+}
+
+div.container-buttons-login {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+div.container-buttons-login > img {
+    width: 28px;
+    margin: 0 10px;
+}
+
+div.container-buttons-login > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms;
+    margin: 0 40px 0 5px;
+}
+
+div.container-buttons-login > a:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+main {
+    width: 100%;
+    height: 85%;
+}
+
+div.container-content-login {
+    width: 100%;
+    height: 85%;
+}
+
+div.container-title {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-title > h1 {
+    margin-top: 10px;
+}
+
+div.continer-externo-dados {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-box-dados {
+    border: 1px solid var(--preto);
+    width: 60%;
+    height: 95%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+div.container-form {
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-form > form > fieldset {
+    border: none;
+}
+
+div.container-form > form > fieldset > input {
+    display: block;
+    width: 700px;
+    height: 50px;
+    margin: 10px 0;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid var(--preto);
+    font-size: 18px;
+    padding: 10px;
+    transition: 300ms;
+}
+
+div.container-form > form > fieldset > button {
+    background-color: white;
+    border: 1px solid var(--preto);
+    padding: 10px 20px;
+    border-radius: 15px;
+    margin-top: 10px;
+    margin-right: 10px;
+    transition: 300ms;
+}
+
+div.container-form > form > fieldset > button:hover {
+    background-color: var(--amarelo);
+    cursor: pointer;
+}
+
+div.container-form > form > fieldset > button > a {
+    font-weight: bold;
+    font-size: 15px;
+}
+
+div.container-form > form > fieldset > a {
+    font-weight: 500;
+    transition: 300ms;
+}
+
+div.container-form > form > fieldset > a:hover {
+    color: var(--azul);
+}
+
+div.container-about {
+    border-top: 1px solid var(--preto);
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+div.container-title-about {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-title-about > h2 {
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+div.container-text-about {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-text-about > p {
+    width: 80%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+div.container-text-about > p > span {
+    color: var(--azul);
+    font-weight: 500;
+}

@@ -1,0 +1,781 @@
+/* --------------- CONFIGURAÇÕES GERAIS --------------- */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --preto: #4B4B4B;
+    --amarelo: #FFEE94;
+    --azul: #ACD4F7;
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: var(--preto);
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: var(--preto);
+}
+
+/* -------------------- PREVIEW ONE -------------------- */
+div.preview-one {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/preview-one/fundo-tela-inicial-menor.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+div.logo {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box-logo > a > img {
+    width: 110px;
+}
+
+nav#preview-one {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav#preview-one > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav#preview-one > ul > li {
+    margin: 0 30px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: 300ms;
+}
+
+nav#preview-one > ul > li > a:hover {
+    color: var(--azul);
+    cursor: pointer;
+}
+
+nav#preview-one > ul > li:hover {
+    color: var(--azul);
+    cursor: pointer;
+}
+
+div.login {
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.login > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+div.login > a:hover {
+    background-color: var(--amarelo);
+    cursor: pointer;
+}
+
+main#preview-one {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 1;
+}
+
+div.container-bicco {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+div.container-bicco > h1 {
+    font-size: 80px;
+    margin: 10px 0;
+}
+
+div.container-about-bicco {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-about-bicco > p {
+    font-size: 18px;
+    text-align: center;
+    width: 70%;
+    margin: 10px 0;
+    word-spacing: 1px;
+}
+
+div.container-search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-search > input {
+    width: 800px;
+    height: 45px;
+    margin: 20px 0;
+    padding: 0 50px 0 15px;
+    font-size: 18px;
+    border-radius: 40px;
+    outline: none;
+    border: 2px solid var(--preto);
+    transition: 300ms;
+}
+
+div.container-search > input:focus {
+    box-shadow: 0px 0px 10px var(--azul);
+}
+
+div.container-search > button#lupa {
+    height: 45px;
+    background-color: transparent;
+    border: none;
+    margin-left: -40px;
+}
+
+div.container-search > button#lupa:hover {
+    cursor: pointer;
+}
+
+div.container-search > button#lupa > img {
+    width: 25px;
+    color: var(--azul);
+}
+
+div.container-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-buttons > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 16px 20px;
+    margin: 10px 32px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+div.container-buttons > a:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+/* -------------------- PREVIEW TWO -------------------- */
+div.preview-two {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/preview-two/fundo-servico-domestico-menor.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+main#preview {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+div.container-one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-title-servico-domestico {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 10px 40px;
+}
+
+div.container-title-servico-domestico > h2 {
+    font-size: 50px;
+}
+
+div.container-about-servico-domestico {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 10px 40px;
+}
+
+div.container-about-servico-domestico > p {
+    font-size: 16px;
+    width: 95%;
+    word-spacing: 1px;
+}
+
+div.container-button {
+    display: flex;
+    justify-content: start;
+    margin: 40px 0px 80px 40px;
+}
+
+div.container-button > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+div.container-button > a:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+div.container-title-info {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 10px 40px;
+}
+
+div.container-title-info > h3 {
+    font-size: 16px;
+}
+
+div.container-container-about-info {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0px 10px 40px;
+}
+
+div.container-container-about-info > p {
+    width: 80%;
+    font-size: 14px;
+    word-spacing: 1px;
+}
+
+div.container-two {
+    width: 60%;
+    height: 100%;
+    display: flex;
+}
+
+div.container-externo-two {
+    width: 100%;
+    height: 100%;
+}
+
+div.containers-interno-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+
+div.containers-interno-two {
+    width: 100%;
+    height: 50%;
+}
+
+div.boxes-content-teste-one {
+    width: 100%;
+    height: 60%;
+}
+
+div.boxes-content-teste-two {
+    width: 100%;
+    height: 40%;
+}
+
+div.container-ilustracao {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-ilustracao > img {
+    width: 400px;
+}
+
+div.container-title-ilustracao {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+div.container-title-ilustracao > h3 {
+    font-size: 30px;
+}
+
+div.container-about-ilustracao {
+    margin-bottom: 30px;
+}
+
+div.container-about-ilustracao > p {
+    width: 700px;
+    text-align: center;
+    word-spacing: 1px;
+    margin-left: 50px;
+}
+
+div.container-buttons-ilustracao {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-buttons-ilustracao > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0 10px;
+    transition: 300ms;
+}
+
+div.container-buttons-ilustracao > a:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+div.container-setas-carrocel {
+    display: flex;
+    justify-content: center;
+}
+
+div.container-setas-carrocel > img {
+    width: 20px;
+    margin: 38px 10px;
+    transition: 300ms;
+}
+
+div.container-setas-carrocel > img:hover {
+    cursor: pointer;
+    width: 22px;
+    margin-top: +36px;
+}
+
+img#seta-pretwo-two {
+    transform: rotate(180deg);
+}
+
+img#seta-prethree-two {
+    transform: rotate(180deg);
+}
+
+img#seta-prefour-two {
+    transform: rotate(180deg);
+}
+
+/* -------------------- PREVIEW THREE -------------------- */
+div.preview-three {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/preview-three/fundo-suporte-tecnico-menor.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+div.container-one {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.container-ilustracao-princial {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+div.container-title-servico-domestico-right {
+    display: flex;
+    justify-content: end;
+    margin: 10px 40px 10px 0px;
+}
+
+div.container-title-servico-domestico-right > h2 {
+    font-size: 50px;
+    text-align: end;
+}
+
+div.container-about-servico-domestico-right {
+    display: flex;
+    justify-content: end;
+    margin: 10px 40px 10px 0px;
+}
+
+div.container-about-servico-domestico-right  > p {
+    font-size: 16px;
+    width: 95%;
+    text-align: end;
+    word-spacing: 1px;
+}
+
+div.container-button-right {
+    display: flex;
+    justify-content: end;
+    margin: 40px 40px 80px 0px;
+}
+
+div.container-button-right > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+div.container-button-right > a:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+div.container-title-info-right {
+    display: flex;
+    justify-content: end;
+    margin: 10px 40px 10px 0px;
+}
+
+div.container-title-info-right > h3 {
+    font-size: 16px;
+    text-align: end;
+}
+
+div.container-container-about-info-right {
+    display: flex;
+    justify-content: end;
+    margin: 10px 40px 10px 0px;
+}
+
+div.container-container-about-info-right > p {
+    width: 80%;
+    font-size: 14px;
+    text-align: end;
+    word-spacing: 1px;
+}
+
+/* -------------------- PREVIEW FOUR -------------------- */
+div.preview-four {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/preview-four/fundo-construcao-e-manutencao-menor.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+/* -------------------- PREVIEW FIVE -------------------- */
+div.preview-five {
+    width: 100%;
+    height: 100vh;
+    background-image: url(/images/preview-five/fundo-celular-menor.png);
+    background-size: cover;
+    background-position: center center;
+}
+
+div.container-boxes-one {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+div.container-boxes-two {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    position: relative;
+    z-index: 1;
+}
+
+div.boxes-content {
+    width: 50%;
+    height: 100%;
+    display: flex;
+}
+
+div.box-content-ilustracao {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: -50px;
+}
+
+div.box-content-text {
+    width: 50%;
+    height: 100%;
+}
+
+div.box-content-ilustracao > img {
+    width: 200px;
+    margin-right: 15px;
+}
+
+div.container-title-celular {
+    display: flex;
+    justify-content: start;
+    margin: 90px 0 10px 10px;
+    opacity: 0;
+}
+
+div.container-title-celular > h3 {
+    font-size: 25px;
+}
+
+div.container-about-celular {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0 10px 10px;
+    opacity: 0;
+}
+
+div.container-about-celular > p {
+    width: 90%;
+    word-spacing: 1px;
+}
+
+div.container-button-celular {
+    display: flex;
+    justify-content: start;
+    margin: 15px 0 10px 10px;
+    opacity: 0;
+}
+
+div.container-button-celular > a {
+    background-color: white;
+    border: 1px solid var(--preto);
+    border-radius: 40px;
+    padding: 10px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 300ms;
+}
+
+div.container-button-celular > a:hover {
+    background-color: var(--azul);
+    cursor: pointer;
+}
+
+/* -------------------- PREVIEW SIX -------------------- */
+div.preview-six {
+    width: 100%;
+    height: 85vh;
+}
+
+footer#preview {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: relative;
+    z-index: 1;
+}
+
+div.container-nav-bar {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+
+div.boxes-nav-bar {
+    width: 20%;
+    height: 100%;
+    margin-top: 20px;
+}
+
+div.box-title-nav-bar {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box-title-nav-bar > h4 {
+    color: white;
+    border-bottom: 1px solid rgb(192, 191, 191);
+    width: 60%;
+    padding: 5px;
+}
+
+nav.box-link-nav-bar {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: start;
+}
+
+nav.box-link-nav-bar > ul {
+    list-style-type: none;
+}
+
+nav.box-link-nav-bar > ul > li {
+    color: white;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 60px;
+    transition: 300ms;
+}
+
+nav.box-link-nav-bar > ul > li > a {
+    color: white;
+}
+
+nav.box-link-nav-bar > ul > li > a:hover {
+    cursor: pointer;
+    color: var(--amarelo);
+}
+
+nav.box-link-nav-bar > ul > li:hover {
+    cursor: pointer;
+    color: var(--amarelo);
+}
+
+div.container-rede-sociais {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+div.container-rede-sociais > p {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+div.container-rede-sociais > a > img {
+    width: 50px;
+}
+
+div.container-rede-sociais > img:hover {
+    cursor: pointer;
+}
+
+img#logo-instagram {
+    width: 31px;
+}
+img#logo-twitter {
+    margin-left: -12px;
+    margin-right: 20px;
+}
+
+div.container-logos {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.box-end-footer {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+}
+
+div.box-end-footer > p {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+div.box-end-footer > a > img {
+    width: 150px;
+    margin: 0 10px;
+}
+
+div.box-end-footer > img:hover {
+    cursor: pointer;
+}
+
+img#logo-programarte {
+    width: 300px;
+}
+
+/* -------------------- MEDIA QUERIES -------------------- */
+@media screen and (min-height: 700px) {
+    div.container-setas-carrocel > img {
+        margin: 0 10px;
+    }
+
+    div.container-setas-carrocel > img:hover {
+        margin-top: -2px;
+    }
+
+    div.preview-one {
+        background-image: url(/images/preview-one/fundo-tela-inicial-maior.png);
+    }
+
+    div.preview-two {
+        background-image: url(/images/preview-two/fundo-servico-domestico-maior.png);
+    }
+
+    div.preview-three {
+        background-image: url(/images/preview-three/fundo-suporte-tecnico-maior.png);
+    }
+
+    div.preview-four {
+        background-image: url(/images/preview-four/fundo-construcao-e-manutencao-maior.png);
+    }
+
+    div.preview-five {
+        background-image: url(/images/preview-five/fundo-celular-maior.png);
+    }
+}
+
+/* -------------- ICONS ANIMATION BACKGROUND ------------- */
+.icons {
+    position: absolute;
+    width: 50px;
+}
+
+#icon-surpresa {
+    width: 90px;
+    margin-left: -15px;
+}
