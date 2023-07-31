@@ -26,7 +26,7 @@ a {
 div.container-login {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/images-gerais/fundo-login.png);
+    background-image: url(./images/images-gerais/fundo-login.png);
     background-size: cover;
 }
 
