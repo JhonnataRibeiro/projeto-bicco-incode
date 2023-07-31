@@ -28,7 +28,7 @@ a {
 div.preview-one {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/preview-one/fundo-tela-inicial-menor.png);
+    background-image: url(./images/preview-one/fundo-tela-inicial-menor.png);
     background-size: cover;
     background-position: center center;
 }
@@ -204,7 +204,7 @@ div.container-buttons > a:hover {
 div.preview-two {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/preview-two/fundo-servico-domestico-menor.png);
+    background-image: url(./images/preview-two/fundo-servico-domestico-menor.png);
     background-size: cover;
     background-position: center center;
 }
@@ -408,7 +408,7 @@ img#seta-prefour-two {
 div.preview-three {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/preview-three/fundo-suporte-tecnico-menor.png);
+    background-image: url(./images/preview-three/fundo-suporte-tecnico-menor.png);
     background-size: cover;
     background-position: center center;
 }
@@ -500,7 +500,7 @@ div.container-container-about-info-right > p {
 div.preview-four {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/preview-four/fundo-construcao-e-manutencao-menor.png);
+    background-image: url(./images/preview-four/fundo-construcao-e-manutencao-menor.png);
     background-size: cover;
     background-position: center center;
 }
@@ -509,7 +509,7 @@ div.preview-four {
 div.preview-five {
     width: 100%;
     height: 100vh;
-    background-image: url(/images/preview-five/fundo-celular-menor.png);
+    background-image: url(./images/preview-five/fundo-celular-menor.png);
     background-size: cover;
     background-position: center center;
 }
@@ -749,23 +749,23 @@ img#logo-programarte {
     }
 
     div.preview-one {
-        background-image: url(/images/preview-one/fundo-tela-inicial-maior.png);
+        background-image: url(./images/preview-one/fundo-tela-inicial-maior.png);
     }
 
     div.preview-two {
-        background-image: url(/images/preview-two/fundo-servico-domestico-maior.png);
+        background-image: url(./images/preview-two/fundo-servico-domestico-maior.png);
     }
 
     div.preview-three {
-        background-image: url(/images/preview-three/fundo-suporte-tecnico-maior.png);
+        background-image: url(./images/preview-three/fundo-suporte-tecnico-maior.png);
     }
 
     div.preview-four {
-        background-image: url(/images/preview-four/fundo-construcao-e-manutencao-maior.png);
+        background-image: url(./images/preview-four/fundo-construcao-e-manutencao-maior.png);
     }
 
     div.preview-five {
-        background-image: url(/images/preview-five/fundo-celular-maior.png);
+        background-image: url(./images/preview-five/fundo-celular-maior.png);
     }
 }
 
