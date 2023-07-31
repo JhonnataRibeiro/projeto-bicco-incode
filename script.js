@@ -285,12 +285,12 @@ const changeButton2PreTwo = document.querySelector('a#button2-pretwo-change');
 let indexChangePreTwo = 0;
 
 const listIlustracaoPreTwo = [
-    [0, '/images/preview-two/ilustracao-diarista.png'],
-    [1, '/images/preview-two/ilustracao-mudanca.png'],
-    [2, '/images/preview-two/ilustracao-azulejista.png'],
-    [3, '/images/preview-two/ilustracao-cuidadora-animais.png'],
-    [4, '/images/preview-two/ilustracao-encanador.png'],
-    [5, '/images/preview-two/ilustracao-montador-moveis.png']
+    [0, './images/preview-two/ilustracao-diarista.png'],
+    [1, './images/preview-two/ilustracao-mudanca.png'],
+    [2, './images/preview-two/ilustracao-azulejista.png'],
+    [3, './images/preview-two/ilustracao-cuidadora-animais.png'],
+    [4, './images/preview-two/ilustracao-encanador.png'],
+    [5, './images/preview-two/ilustracao-montador-moveis.png']
 ];
 
 const listTitlePreTwo = [
@@ -415,13 +415,13 @@ const changeButton2PreThree = document.querySelector('a#button2-prethree-change'
 let indexChangePreThree = 0;
 
 const listIlustracaoPreThree = [
-    [0, '/images/preview-three/ilustracao-tecnico-informatica.png'],
-    [1, '/images/preview-three/ilustracao-tecnico-eletronica.png'],
-    [2, '/images/preview-three/ilustracao-advogado.png'],
-    [3, '/images/preview-three/ilustracao-tecnico-ar-condicionado.png'],
-    [4, '/images/preview-three/ilustracao-desenvolvedor.png'],
-    [5, '/images/preview-three/ilustracao-professor.png'],
-    [6, '/images/preview-three/ilustracao-designer.png']
+    [0, './images/preview-three/ilustracao-tecnico-informatica.png'],
+    [1, './images/preview-three/ilustracao-tecnico-eletronica.png'],
+    [2, './images/preview-three/ilustracao-advogado.png'],
+    [3, './images/preview-three/ilustracao-tecnico-ar-condicionado.png'],
+    [4, './images/preview-three/ilustracao-desenvolvedor.png'],
+    [5, './images/preview-three/ilustracao-professor.png'],
+    [6, './images/preview-three/ilustracao-designer.png']
 ];
 
 const listTitlePreThree = [
@@ -551,11 +551,11 @@ const changeButton2PreFour = document.querySelector('a#button2-prefour-change');
 let indexChangePreFour = 0;
 
 const listIlustracaoPreFour = [
-    [0, '/images/preview-four/ilustracao-pedreiro.png',],
-    [1, '/images/preview-four/ilustracao-pintor.png',],
-    [2, '/images/preview-four/ilustracao-eletricista.png',],
-    [3, '/images/preview-four/ilustracao-mecanico.png',],
-    [4, '/images/preview-four/ilustracao-limpador-vidro.png',]
+    [0, './images/preview-four/ilustracao-pedreiro.png',],
+    [1, './images/preview-four/ilustracao-pintor.png',],
+    [2, './images/preview-four/ilustracao-eletricista.png',],
+    [3, './images/preview-four/ilustracao-mecanico.png',],
+    [4, './images/preview-four/ilustracao-limpador-vidro.png',]
 ];
 
 const listTitlePreFour = [
