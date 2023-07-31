@@ -852,7 +852,7 @@ const divFilho = document.querySelector('div.preview-one');
 
 for (let i = 0; i <= 42; i++) {
     const newElementImg = document.createElement('img');
-    newElementImg.setAttribute('src', `/images/images-gerais/icons-animation/icon${indiceIconesAnimacao + 1}.png`);
+    newElementImg.setAttribute('src', `./images/images-gerais/icons-animation/icon${indiceIconesAnimacao + 1}.png`);
     newElementImg.setAttribute('class', `icons ${speedIconsAnimation[velocidadeIconesAnimacao][1]}`);
     ++velocidadeIconesAnimacao;
     if (velocidadeIconesAnimacao > 3) {
